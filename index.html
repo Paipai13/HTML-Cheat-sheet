@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title> HTML Cheat-sheet </title>
+    </head>
+    <body>
+    <!-- Headings -->
+    <h1> Hello World </h1>
+    <h2> Hello World </h2>
+    <h3> Hello World </h3>
+    <h4> Hello World </h4>
+    <a href="blog.html"> Go to Blog</a>
+<br>
+    <!-- Paragraphs -->
+    <p>  Lorem ipsum <a href="http://google.com" target="_blank"> dolor sit </a> amet,<strong> this is bold </strong> consectetur adipisicing elit. Sit, temporibus.</p>
+     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. <em> this is italics </em>Sit, temporibus.</p>
+<!-- Lists -->
+    <ul>
+         <li> item 1</li>
+         <li> item 2</li>
+         <li> item 3</li>
+         <li> item 4</li>
+    </ul>
+    <ol>
+        <li> item 1</li>
+         <li> item 2 </li>
+         <li> item 3</li>
+         <li> item 4</li>
+    </ol>
+    <!-- Tables -->
+    <table>
+        <thead>
+        <tr>
+            <th> Name </th>
+            <th> Email </th>
+            <th> Age </th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Paige Wright </td>
+                <td> paigeawright@outlook.com</td>
+                <td> 20</td>
+            </tr>
+            <tr>
+                <td> Erica Sharpiro </td>
+                <td> esharp3000@gmail.com</td>
+                <td> 25</td>
+            </tr>
+            <tr>
+                <td> Papyrus Sans  </td>
+                <td> skelebros@underweb.net</td>
+                <td> N/A </td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <!-- Forms --> <!--HTML creates form, not functionality. Action (submits form to php page) ="process.php"  method= "Post" (post request to server, adds data to server) or "Get" (posts data and shows it in url) are server based commands -->
+    <form action="process.php" method="GET">
+      <div>
+        <label> First Name </label>
+        <input type="text" name="firstName" placeholder="Please type your name">
+      </div>
+        <br>
+       <div>
+        <label> Last Name </label>
+        <input type="text" name="lastName">
+       </div>
+        <br>
+        <div>
+            <label> Email </label>
+            <input type="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label> Message </label>
+             <textarea name="message"> </textarea>
+        </div>
+        <br>
+        <div>
+            <label> Gender </label>
+            <select name="gender">
+                <option value="male"> Male </option>
+                 <option value="female"> Female </option>
+                 <option value="Other"> other </option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label> Age: </label>
+            <input type="number" name="age" value="90">
+        </div>
+        <br>
+        <div>
+            <label>Birthday</label>
+            <input type="Date" name="Birthday">
+        </div>
+        <br>
+        <input type="submit" name="submit" value="Submit">
+    </form>
+    <br>
+    <!-- button-->
+    <button> Click me! </button>
+    <br>
+    <hr>
+    <!-- Image -->
+    <a href="Images/sample.jpg">
+    <img src="Images/sample.jpg" alt="My sample Image" Width="500" height="500">
+    </a>
+    <!-- Quotations-->
+    <blockquote cite="http://www.sharpirokc.com">
+       <a href="http://sharpirokc.com" target="_blank"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cumque dicta distinctio ea eum, eveniet hic inventore itaque labore laborum maxime obcaecati odio quas quibusdam quod ullam ut vitae voluptatibus?
+       </a>
+    </blockquote>
+    <p>
+        the <abbr title=" World wide web"> WWW </abbr> is awesome
+    </p>
+    <p>
+        <cite>html crash course by brad traversy </cite>
+    </p>
+    <div style="margin-top: 500px"> </div>
+    </body>
+</html>
